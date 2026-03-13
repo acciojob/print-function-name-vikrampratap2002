@@ -1,5 +1,5 @@
-function AccioJob(){
+function functionName(){
     alert(arguments.callee.name);
 }
 
-AccioJob();
+functionName();
